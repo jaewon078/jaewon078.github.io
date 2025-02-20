@@ -1,0 +1,99 @@
+/* HTML + CSS adapted from https://kayleegeorge.github.io/ */
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+  font-weight: medium;
+  font-size: 18px;
+  margin: 10px 0px;
+} 
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 60px auto;
+  max-width: 700px;
+  background-color: #fafaf7;
+}
+
+a:link,
+a:visited {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: 550;
+}
+  
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+}
+
+.bullets {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 24px;
+  gap: 3px;
+}
+
+.spacer {
+  height: 24px;
+}
+
+.small-spacer {
+  height: 8px;
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 24px 0 4px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.blog-date {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.align-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.small-title {
+  font-size: 17px;
+  margin: 6px 0px;
+  text-decoration: underline;
+}
