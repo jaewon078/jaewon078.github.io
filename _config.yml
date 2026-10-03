@@ -1,0 +1,44 @@
+# Site settings — edit these first.
+title: Jaewon Lee
+description: Personal site and blog.
+author: Jaewon Lee
+url: "https://jaewon078.github.io"
+baseurl: ""
+
+# Links shown in the header/footer. Delete any line you don't want.
+social:
+  github: jaewon078
+  linkedin: jaewon-lee-
+  # email: you@example.com
+  # twitter: yourhandle
+
+# Blog post URLs look like /blog/my-post-title/
+permalink: /blog/:title/
+
+# Posts use the post layout, everything else the default one.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# These plugins are supported by GitHub Pages out of the box.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
