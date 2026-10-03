@@ -2,7 +2,6 @@
 layout: default
 title: Blog
 permalink: /blog/
-folio: 2
 ---
 
 # Blog

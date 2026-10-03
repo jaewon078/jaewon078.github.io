@@ -1,6 +1,5 @@
 ---
 # No title here, so the browser tab just shows your name.
-folio: 1
 ---
 
 <img class="hero" src="{{ '/assets/images/columbia.jpg' | relative_url }}" alt="Jaewon in a Columbia graduation gown, posing like the Alexander Hamilton statue in front of Hamilton Hall" width="1100" height="1100">
