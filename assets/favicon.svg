@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#191917"/>
-  <text x="32" y="42" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#f5f3ec">JL</text>
+  <!-- "J" in Young Serif (OFL), cream on Abilene blue -->
+  <rect width="64" height="64" rx="14" fill="#3e7296"/>
+  <path fill="#f5f3ec" transform="translate(18.10 52.28) scale(0.05505 -0.05505)" d="M485 750Q500 750 500 735V705Q500 690 485 690H479Q441 690 426.0 662.0Q411 634 411 595V218Q411 175 400.5 134.0Q390 93 365.5 59.5Q341 26 298.5 6.5Q256 -13 191 -13Q139 -13 103.5 3.5Q68 20 46.5 44.0Q25 68 15.0 90.0Q5 112 5 123Q5 138 21 147L114 197Q123 202 128 202Q138 202 138 189Q138 181 136.5 172.0Q135 163 135 146Q135 128 139.0 106.5Q143 85 155.0 69.5Q167 54 191 54Q221 54 236.5 75.5Q252 97 252 128V595Q252 635 237.0 662.5Q222 690 184 690H177Q162 690 162 705V735Q162 750 177 750Z"/>
 </svg>
